@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background: Very Light Pastel Pink from F2ACDC -->
+    <color name="bg">#FFF0FA</color>
+
+    <!-- Primary Colors provided by user -->
+    <color name="primary">#FF5CBE</color> <!-- Vibrant Pink -->
+    <color name="primary_light">#F2ACDC</color> <!-- Soft Pink -->
+    <color name="primary_dark">#E03E9E</color>
+    <color name="primary_soft">#FFDFEF</color>
+
+    <!-- Accent Color -->
+    <color name="accent">#FF5CBE</color>
+
+    <!-- Text Colors: Dark Magenta for High Contrast on Pink -->
+    <color name="text_dark">#3D0026</color>
+    <color name="text_medium">#7A2B5E</color>
+    <color name="text_muted">#A36E92</color>
+
+    <!-- UI Basics -->
+    <color name="card">#FFFFFF</color>
+    <color name="success">#2ECC71</color>
+    <color name="danger">#FF4757</color>
+    <color name="warning">#FFA502</color>
+
+    <!-- Priority Colors -->
+    <color name="high">#FF4757</color>
+    <color name="medium">#FFA502</color>
+    <color name="low">#2ECC71</color>
+
+    <color name="divider">#FCE4F4</color>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/bg"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:padding="24dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/tvTitle" android:text="Tugas Baru 📝"
+            android:textSize="24sp" android:textStyle="bold"
+            android:textColor="@color/text_dark" android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <EditText android:id="@+id/etTitle" android:hint="Judul tugas"
+            android:background="@drawable/bg_input" android:padding="16dp"
+            android:textColor="@color/text_dark"
+            android:textColorHint="@color/text_muted"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <EditText android:id="@+id/etDesc" android:hint="Deskripsi"
+            android:background="@drawable/bg_input" android:padding="16dp"
+            android:textColor="@color/text_dark"
+            android:textColorHint="@color/text_muted"
+            android:minLines="3" android:gravity="top"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <Spinner android:id="@+id/spCategory" android:background="@drawable/bg_input"
+            android:padding="12dp" android:layout_marginBottom="12dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <Spinner android:id="@+id/spPriority" android:background="@drawable/bg_input"
+            android:padding="12dp" android:layout_marginBottom="12dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <Button android:id="@+id/btnDate" android:text="📅 Pilih Tanggal"
+            android:background="@drawable/bg_input" android:textColor="@color/text_dark"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <Button android:id="@+id/btnTime" android:text="⏰ Pilih Jam"
+            android:background="@drawable/bg_input" android:textColor="@color/text_dark"
+            android:layout_marginBottom="24dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <Button android:id="@+id/btnSave" android:text="Simpan"
+            android:textColor="#FFFFFF" android:background="@drawable/bg_button"
+            android:padding="16dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>
